@@ -19,9 +19,9 @@ import {
     headset,
     mt,
     upwork,
-    carrent,
-    jobit,
-    tripguide,
+    propclear,
+    modern,
+    threedport,
     threejs,
   } from "../assets";
   
@@ -199,30 +199,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "PropertyClear",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web-based platform that allows users to search, view, and manage properties from various real-estate, providing a convenient and efficient solution for renting, buying and selling properties.",
       tags: [
         {
           name: "react",
@@ -230,36 +209,70 @@ import {
         },
         {
           name: "restapi",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Dbeaver",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "aws",
           color: "pink-text-gradient",
         },
+        {
+          name: "nodejs",
+          color: "red-text-gradient",
+        },
+        
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: propclear,
+      source_code_link: "https://github.com/T9-F24-COMP231/T9-F24-COMP231",
     },
     {
-      name: "Trip Guide",
+      name: "Modern Tagalog",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Web application that focused on language learning and communication. It auto-translated chat page to help users converse in tagalog and learn more easily.",
       tags: [
         {
-          name: "nextjs",
+          name: "nodejs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "socketio",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "react",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "express",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: modern,
+      source_code_link: "https://github.com/rthchldshynee/modern-tagalog/tree/chat-rc",
+    },
+    {
+      name: "3D_Portfolio",
+      description:
+        "A dynamic personal portfolio website showcasing my development expertise through interactive 3D elements and animations. Features with Three.js for 3D graphics, Vite+React for front-end architecture, and Tailwind CSS for styling.",
+      tags: [
+        {
+          name: "threejs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "vite+react",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: threedport,
+      source_code_link: "https://github.com/rthchldshynee/3D_portfolio",
     },
   ];
   

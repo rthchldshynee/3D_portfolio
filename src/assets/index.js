@@ -26,9 +26,9 @@ import upwork from "./company/upwork.png";
 import headset from "./company/headset.png";
 import mt from "./company/mt.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import propclear from "./propclear.png";
+import modern from "./modern.jpg";
+import threedport from "./threedport.png";
 
 export {
   logo,
@@ -56,7 +56,7 @@ export {
   upwork,
   headset,
   mt,
-  carrent,
-  jobit,
-  tripguide,
+  propclear,
+  modern,
+  threedport,
 };
