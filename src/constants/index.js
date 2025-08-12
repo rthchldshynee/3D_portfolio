@@ -23,6 +23,10 @@ import {
     modern,
     threedport,
     threejs,
+    underdogo,
+    shoplebron,
+    wix,
+    fas,
   } from "../assets";
   
   export const navLinks = [
@@ -112,6 +116,7 @@ import {
       name: "docker",
       icon: docker,
     },
+              
   ];
   
   const experiences = [
@@ -141,31 +146,28 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "PropertyClear - School Final Project",
+      title: "Junior Web Developer",
+      company_name: "Intelligration LLC",
       icon: meta,
       iconBg: "#383E56",
-      date: "Sept 2024 - Dec 2024",
+      date: "May 2023 - June 2024",
       points: [
-        "Led full-stack development of a real estate web application using React, Node.js, Express, and PostgreSQL, implementing user authentication and database management from concept to deployment.",
-        "Managed complete Agile development cycle including sprint planning, story pointing, and velocity tracking to meet project deadlines.",
-        "Built responsive front-end interfaces and RESTful API endpoints for seamless data management and user experience.",
-        "Successfully deployed the application to production, implementing proper version control and deployment workflows.",
-
-,
+        "Developed and maintained  a WordPress-based marketing website for a fantasy stock trading platform using PHP and modern web standards.",
+        "Implement and optimize on-page SEO elements including meta tags, structured data, and keyword-rich content",
+        "Collaborate with the design team to implement responsive web designs",
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Modern Tagalog - Personal project",
+      company_name: "Underdogs Agency LLC",
       icon: mt,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Present",
+      date: "June 2024 - August 2025",
       points: [
-        "Developing and maintaining web applications focused on language learning and communication.",
-        "Implementing auto-translated chat page to help people converse in Tagalog and learn more easily",
-        "Created original schema design for the relational database that runs in the application",
-        "Using express, PHP, node-mysql, and socket io to quickly save chats in the database",
+        "Build, maintain and update multiple clients marketing website in shopify, framer, webflow,  squarespace, wordpress, wix, and other web technologies and languages",
+        "Implement multiple custom code solutions where needed",
+        "Consistently delivered requested edits ahead of time",
+        "Collaborate directly with the CEO and other co-workers on a daily basis. ",
       ],
     },
   ];
@@ -273,6 +275,90 @@ import {
       ],
       image: threedport,
       source_code_link: "https://github.com/rthchldshynee/3D_portfolio",
+    },
+    {
+      name: "Framer Project",
+      description:
+        "Built from scratch using Framer. Complete company website development featuring modern design and responsive layout. Created an engaging digital presence that effectively communicates the brand's mission and services through intuitive navigation and compelling visual storytelling. ",
+      tags: [
+        {
+          name: "framer",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "brand design",
+          color: "green-text-gradient",
+        },
+        {
+          name: "responsive design",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: underdogo,
+      source_code_link: "https://www.getunderdogs.com/",
+    },
+    {
+      name: "Shopify Project",
+      description:
+        "Developed a comprehensive shopping experience featuring all collections and products from LeBron James' brand. Implemented seamless product browsing, collection organization, and streamlined checkout process to enhance customer engagement and conversion rates. ",
+      tags: [
+        {
+          name: "shopify",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "brand design",
+          color: "green-text-gradient",
+        },
+        {
+          name: "responsive design",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: shoplebron,
+      source_code_link: "https://shoplebron.com/",
+    },
+    {
+      name: "Wix Project",
+      description:
+        "Custom website built using Wix. Designed and developed a personalized website showcasing professional portfolio and services. Created a clean, user-friendly interface with optimized content presentation and responsive design elements tailored to client specifications.",
+      tags: [
+        {
+          name: "wix",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "brand design",
+          color: "green-text-gradient",
+        },
+        {
+          name: "responsive design",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: wix,
+      source_code_link: "https://www.lindseyconrad.com/ ",
+    },
+    {
+      name: "Squarespace Project",
+      description:
+        "Website revamp using Squarespace. Complete website redesign and revamping focusing on improved visual hierarchy and content organization. Enhanced the organization's digital presence with modern aesthetics while maintaining accessibility and user engagement for the arts community.",
+      tags: [
+        {
+          name: "squarespace",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "brand design",
+          color: "green-text-gradient",
+        },
+        {
+          name: "responsive design",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: fas,
+      source_code_link: "https://www.forartssakecle.org/ ",
     },
   ];
   

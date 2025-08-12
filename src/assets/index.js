@@ -29,6 +29,10 @@ import mt from "./company/mt.png";
 import propclear from "./propclear.png";
 import modern from "./modern.jpg";
 import threedport from "./threedport.png";
+import underdogo from "./underdogo.png";
+import shoplebron from "./shoplebron.png";
+import wix from "./wix.png";
+import fas from "./fas.png";
 
 export {
   logo,
@@ -59,4 +63,9 @@ export {
   propclear,
   modern,
   threedport,
+  underdogo,
+  shoplebron,
+  wix,
+  fas,
+  
 };
